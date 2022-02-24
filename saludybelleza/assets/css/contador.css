@@ -1,0 +1,27 @@
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: start;
+}
+
+.simply-section {
+	background: #fff;
+	width: 90px;
+	height: 90px;
+	margin: 0 8px 0 0;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 15px;
+}
