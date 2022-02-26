@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top:hover {
   background: #2be4a2;
   color: #fff;
-  font-size: 26px;
+  font-size: 23px;
   transition: 0.5s;
 }
 .back-to-top.active {
@@ -463,12 +463,10 @@ section {
   padding: 50px 0 0 0;
   overflow: hidden;
 }
-
 .section-bg {
   background: linear-gradient( #90dfe6fa,#fff673e0), url(../img/hero-bg.jpg) fixed center center;
   background-size: cover;
 }
-
 .section-title {
   padding-bottom: 40px;
 }
@@ -681,6 +679,61 @@ section {
   -webkit-animation: none;
   animation: none;
   border-radius: 0;
+}
+
+.about .modal h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about .modal iframe{
+  display: block;
+  margin: auto;
+}
+
+.about .modal .modal-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .modal .modal-body .modal-title{
+  line-height: 30px;
+}
+
+.about .modal .modal-footer .btn-primary{
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1acc8d;
+  box-shadow: 0 0 5px 5px #fff;
+  border-style: none;
+}
+.about .modal .modal-footer .btn-primary:hover {
+  background: #17b57d;
+}
+.about .modal .modal-body .price-1{
+  color: rgb(255, 104, 104);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration:line-through;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.about .modal .modal-body .price-2{
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 @-webkit-keyframes pulsate-btn {
