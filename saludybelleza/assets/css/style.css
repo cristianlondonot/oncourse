@@ -720,6 +720,9 @@ section {
 .about .modal .modal-footer .btn-primary:hover {
   background: #17b57d;
 }
+.about .modal .modal-body iframe{
+  width: 100%;
+}
 .about .modal .modal-body .price-1{
   color: rgb(255, 104, 104);
   font-weight: bold;
